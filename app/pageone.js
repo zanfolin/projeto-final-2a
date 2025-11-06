@@ -4,8 +4,8 @@ export default function Page() {
   return (
     <View style={styles.container}>
       <View style={styles.main}>
-        <Text style={styles.title}>Página Inicial</Text>
-        <Text style={styles.subtitle}>Pré-requisito para a disciplina de DDM</Text>
+        <Text style={styles.title}>Tema Obrigatório</Text>
+        <Text style={styles.subtitle}>Início do Tema Obrigatório</Text>
       </View>
     </View>
   );
@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     padding: 24,
-    backgroundColor: "#f2f3ebff",
+    backgroundColor: "#0a65afff",
   },
   main: {
     flex: 1,
