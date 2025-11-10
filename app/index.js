@@ -25,8 +25,22 @@ const styles = StyleSheet.create({
     marginHorizontal: "auto",
   },
   title: {
-    fontSize: 64,
+    // display: "flex",
+    fontSize: 32,
     fontWeight: "bold",
+    color: "#9b9728ff",
+    borderColor: "black",
+    borderWidth: 3,
+    borderRadius: 5,
+    padding: 5,
+    border: 5,
+    // marginLeft: 15,
+    // paddingLeft: 15,
+    justifyContent: "center",
+    // textAlign: "center",
+    alignItems: "center",
+    // alignContent:"center"
+    height: 200,
   },
   subtitle: {
     fontSize: 36,
